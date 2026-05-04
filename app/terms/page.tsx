@@ -13,12 +13,12 @@ export default function Terms() {
                     <ArrowLeftIcon className="w-4 h-4" />
                     Back to Chatbot
                 </Link>
-                <h1 className="text-3xl font-bold">MyAI3</h1>
+                <h1 className="text-3xl font-bold">FitCoachAI</h1>
                 <h2 className="text-2xl font-semibold">Terms of Use / Disclaimer</h2>
 
                 <p className="text-gray-700">
-                    The following terms of use govern access to and use of the MyAI3
-                    Assistant ("AI Chatbot"), an artificial intelligence tool provided by
+                    The following terms of use govern access to and use of the FitCoachAI
+                    Assistant ("AI Chatbot"), an artificial intelligence tool provided by{" "}
                     {OWNER_NAME} ("I", "me", or "myself"). By engaging with the AI
                     Chatbot, you agree to these terms. If you do not agree, you may not
                     use the AI Chatbot.
@@ -30,9 +30,11 @@ export default function Terms() {
                         <li className="text-gray-700">
                             <span className="font-semibold">Provider and Purpose:</span> The
                             AI Chatbot is a tool developed and maintained by {OWNER_NAME}. It
-                            is intended solely to assist users with questions and coursework
-                            related to courses taught by {OWNER_NAME}. The AI Chatbot is not
-                            affiliated with, endorsed by, or operated by the course provider.
+                            is intended solely to assist users with general fitness, exercise,
+                            and nutrition guidance. FitCoachAI is not a medical, clinical, or
+                            professional fitness service. The AI Chatbot is not affiliated
+                            with, endorsed by, or operated by any fitness organization,
+                            medical institution, or university.
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">Third-Party Involvement:</span>{" "}
@@ -49,6 +51,42 @@ export default function Terms() {
                             responses but may deliver inaccurate, incomplete, or outdated
                             information. Users are strongly encouraged to independently verify
                             any information before relying on it for decisions or actions.
+                        </li>
+                    </ol>
+                </div>
+
+                <div className="space-y-4">
+                    <h3 className="text-xl font-semibold">Fitness and Health Disclaimer</h3>
+                    <ol className="list-decimal list-inside space-y-3">
+                        <li className="text-gray-700">
+                            <span className="font-semibold">Not Medical Advice:</span> FitCoachAI
+                            does not provide medical advice, diagnosis, or treatment. Always
+                            consult a qualified medical professional before starting any new
+                            exercise or nutrition program, especially if you have any existing
+                            health conditions or injuries.
+                        </li>
+                        <li className="text-gray-700">
+                            <span className="font-semibold">Physical Risk:</span> Exercise
+                            carries inherent physical risks. Users assume full responsibility
+                            for any injury, illness, or health consequences resulting from
+                            following advice provided by FitCoachAI. Always prioritize proper
+                            form and safety, and stop exercising immediately if you experience
+                            pain or discomfort.
+                        </li>
+                        <li className="text-gray-700">
+                            <span className="font-semibold">Not a Substitute for Professional Training:</span>{" "}
+                            FitCoachAI is not a replacement for a certified personal trainer,
+                            registered dietitian, or licensed healthcare provider. For
+                            personalized fitness and nutrition advice, always consult a
+                            qualified professional.
+                        </li>
+                        <li className="text-gray-700">
+                            <span className="font-semibold">Nutrition Guidance:</span> Any
+                            nutrition information provided by FitCoachAI is for general
+                            educational purposes only. It is not intended to replace advice
+                            from a registered dietitian or nutritionist. Do not make
+                            significant changes to your diet based solely on AI-generated
+                            recommendations.
                         </li>
                     </ol>
                 </div>
@@ -80,7 +118,8 @@ export default function Terms() {
                             partners, affiliated entities, or representatives be liable for
                             any direct, indirect, incidental, consequential, special, or
                             punitive damages arising out of or in connection with the use of
-                            the AI Chatbot.
+                            the AI Chatbot, including any physical injury or health-related
+                            damages resulting from following fitness or nutrition advice.
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">
@@ -110,7 +149,7 @@ export default function Terms() {
                             <ul className="list-disc list-inside ml-6 mt-2 space-y-2">
                                 <li>Post or transmit content that is defamatory, offensive, intimidating, illegal, racist, discriminatory, obscene, or otherwise inappropriate.</li>
                                 <li>Use the AI Chatbot to engage in unlawful or unethical activities.</li>
-                                <li>Attempt to compromise the security or functionality of the AI Chatbot</li>
+                                <li>Attempt to compromise the security or functionality of the AI Chatbot.</li>
                                 <li>Copy, distribute, modify, reverse engineer, decompile, or extract the source code of the AI Chatbot without explicit written consent.</li>
                             </ul>
                         </li>
@@ -125,13 +164,14 @@ export default function Terms() {
                             AI Chatbot does not guarantee privacy, confidentiality, or
                             security of the information you provide. Conversations may be
                             reviewed by {OWNER_NAME}, collaborators, partners, or affiliated
-                            entities for purposes such as improving the AI Chatbot, developing
-                            course materials, and conducting research.
+                            entities for purposes such as improving the AI Chatbot and
+                            conducting research.
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">Public Information:</span> Any
                             information you provide through the AI Chatbot is treated as
-                            public.
+                            public. Do not share personal health information, medical records,
+                            or sensitive personal data.
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">Data Transmission:</span> Inputs
@@ -168,11 +208,13 @@ export default function Terms() {
                 <div className="space-y-4">
                     <h3 className="text-xl font-semibold">Indemnification</h3>
                     <p className="text-gray-700">
-                        By using the AI Chatbot, you agree to indemnify and hold harmless
+                        By using the AI Chatbot, you agree to indemnify and hold harmless{" "}
                         {OWNER_NAME}, his collaborators, partners, affiliated entities, and
                         representatives from any claims, damages, losses, or liabilities
                         arising out of your use of the AI Chatbot or violation of these
-                        terms.
+                        terms, including any claims related to physical injury or health
+                        consequences resulting from fitness or nutrition advice provided
+                        by the AI Chatbot.
                     </p>
                 </div>
 
@@ -199,7 +241,7 @@ export default function Terms() {
                 </div>
 
                 <div className="mt-8 text-sm text-gray-600">
-                    <p>Last Updated: November 17, 2025</p>
+                    <p>Last Updated: May 3, 2026</p>
                 </div>
             </div>
         </div>
